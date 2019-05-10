@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "start": "node server.js",
-    "start:nodemon": "nodemon server.js"
+    "start:nodemon": "nodemon server.js",
+    "migrate": "knex migrate:latest"
   },
   "keywords": [],
   "author": "",
