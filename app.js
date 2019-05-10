@@ -11,6 +11,7 @@ app.use(cors())
 // const cors = require('cors')
 // app.use(cors())
 
+
 app.get('/api/v1/projects', (request, response) => {
   database('projects').select()
     .then(projects => {
