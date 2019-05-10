@@ -4,7 +4,9 @@
   "description": "An API for choosing colors.",
   "main": "server.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node server.js",
+    "start:nodemon": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
